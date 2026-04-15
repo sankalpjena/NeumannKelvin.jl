@@ -8,12 +8,16 @@ AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 FastChebInterp = "cf66c380-9a80-432c-aff8-4f9c79c0bdde"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
 ImplicitBVH = "932a18dc-bb55-4cd5-bdd6-1368ec9cea29"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
+MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
@@ -23,14 +27,14 @@ TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 
 [weakdeps]
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 NURBS = "dde13934-061e-461b-aa91-2c0fad390a0d"
-GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 
 [extensions]
+NeumannKelvinGeometryBasicsExt = "GeometryBasics"
 NeumannKelvinMakieExt = "Makie"
 NeumannKelvinNURBSExt = "NURBS"
-NeumannKelvinGeometryBasicsExt = "GeometryBasics"
 
 [compat]
 AcceleratedKernels = "0.4.3"
@@ -56,9 +60,9 @@ julia = "1.9"
 [extras]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-NURBS = "dde13934-061e-461b-aa91-2c0fad390a0d"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
+NURBS = "dde13934-061e-461b-aa91-2c0fad390a0d"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
